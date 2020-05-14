@@ -31,8 +31,19 @@ section {
 
 }
 
+.bau {
+    border: 2px solid #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 10rem;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
 h1 {
-    font-family: 'Arimo', sans-serif;
+    font-family: 'cocogoose', sans-serif;
     font-size: 5rem;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -42,15 +53,18 @@ h1:hover {
     color: dodgerblue;
 }
 
-.textme p {
-    font-size: 16px;
-    word-spacing: 5px;
+.bau p {
+    font-size: 15px;
     text-align: center;
-    font-family: 'arial', sans-serif;
+    font-family: 'bebas neue', sans-serif;
+    word-spacing: 3;
+    letter-spacing: 1;
     
 
 
 }
+
+
 
 /*pembungkus dalam lay */
 
@@ -153,6 +167,12 @@ h1:hover {
   }
   .modal-header h2 {
     font-size: 20px;
+  }
+  .modal-body {
+    font-style: bebas neue;
+    font-size: 10px;
+    word-spacing: 5px;
+    letter-spacing: 0px;
   }
   .modal-footer {
     border-top: #eee solid 1px;
@@ -263,6 +283,7 @@ h1:hover {
     border-top: #eee solid 1px;
     text-align: right;
   }
+
   /*ADDED TO STOP SCROLLING TO TOP*/
   #close2 {
     display: none;
