@@ -28,6 +28,7 @@ section {
     background-size: 400% 400%;
     position: relative;
     animation: change 10s ease-in-out infinite;
+    background-repeat: repeat-x;
 
 }
 
@@ -55,7 +56,7 @@ h1:hover {
 
 .bau p {
     font-size: 15px;
-    text-align: center;
+    text-align: left;
     font-family: 'bebas neue', sans-serif;
     word-spacing: 3;
     letter-spacing: 1;
@@ -171,8 +172,10 @@ h1:hover {
   .modal-body {
     font-style: bebas neue;
     font-size: 10px;
+    text-align: left;
     word-spacing: 5px;
     letter-spacing: 0px;
+    align-content: left;
   }
   .modal-footer {
     border-top: #eee solid 1px;
@@ -183,7 +186,7 @@ h1:hover {
     display: none;
   }
   
-/*MODAL KEDUA FUNGSI NYA SAMA KEK MODAL SATU*/
+/*MODAL KEDUA*/
 
 
 .wrap2 {
